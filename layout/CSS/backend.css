@@ -1,0 +1,312 @@
+
+body{
+    background-color: #E5E5E5;
+    height: 3000px;
+}
+
+/* start navbar **/
+
+nav.navbar{
+    font-weight: bold;
+    color:blue;
+}
+
+div.navbar-collapse{
+    width: auto;
+}
+
+ul.dropdown-menu.show {
+    padding: 0;
+    top: 44px;
+}
+ul.dropdown-menu.show li {
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+ul.dropdown-menu.show li:last-child {
+    border-bottom: none;
+}
+/** end navbar **/
+
+/** start heder */
+
+.upper-bar{
+padding: 10px;
+background-color: #FFF;
+}
+
+/*.upper-bar .btn{
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+*/
+/** end heder **/
+
+/** start login page */
+
+.login-page form{
+max-width: 350px;
+margin: auto;
+}
+
+.login-page form input{
+    margin-bottom: 10px;
+}
+.login-page [data-class="login"].selected{
+    color:#198754;
+}
+
+.login-page [data-class="signup"].selected{
+color:#0d6efd
+}
+
+.login-page h2{
+    color: #C0C0C0;
+}
+.login-page h2 span{
+    cursor: pointer;
+}
+.login-page form.signup{
+    display: none;
+}
+
+input.btn{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/** end login page */
+
+
+/** Main rules **/
+
+h2{
+    font-weight: bolder;
+    color: #666;
+    padding:20px;
+}
+
+/* end main rules */
+
+/** start categories **/
+.item-cat,.items-cat{
+   justify-content: center;
+
+}
+
+.item-cat .col-md-4,.items-index .col-md-4{
+   padding: 5px;
+  }
+
+div.div-cat{
+margin: 100px;
+}
+
+span#empty-item{
+padding: 5px;
+border-left: 2px solid red;
+}
+.item-box{
+position: relative;
+padding: 10px;
+border: 1px solid rgba(0,0,0,.15);
+border-radius: 10px;
+background: whitesmoke;
+}
+
+.item-box .price-tag{
+    border-top-left-radius: 10px;
+    background-color: yellow;
+    padding: 2px 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    color: black;
+}
+
+.caption h3{
+    cursor: pointer;
+    padding-top: 10px;
+    color: black;
+}
+.caption a{
+    text-decoration: none;
+}
+/** end categories **/
+
+/* start profile css */
+
+.block{
+    max-width: 1000px;
+    margin: auto;
+}
+.block .container{
+    margin: 20px 0 0;
+}
+
+.information{
+    margin-top:0;
+}
+.information ul{
+    padding: 0;
+    margin:0;
+}
+.information ul li {
+    padding: 10px;
+}
+.information ul li:nth-child(odd) {
+background-color: #EEE;
+}
+.information ul li span {
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+    }
+
+.thumbnail .caption .date,span.date{
+text-align: right;
+font-size: 13px;
+color: #AAA;
+font-weight: bold;
+}    
+
+.thumbnail .caption .date i{
+    float: left;
+    font-size: 23px;
+    color: #AAA;
+    font-weight: bold;
+    } 
+.thumbnail .caption .date i:hover{
+    cursor:pointer;
+}
+
+.profile-items .col-sm-6{
+    padding: 10px;
+}
+/* end profile css */
+/* START  newADD css */
+
+.col-md-8 form .row .col-form-label-sm{
+    font-weight: bold;
+    width: 150px;
+}
+
+/* end New Ad css */
+/* START  showitem page css */
+.img-item{
+    text-align: -webkit-center;
+}
+.img-item img{
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+    position: relative;
+    top:-4px;
+}
+ /*.show-item{
+   border : 1px solid gray;
+    border-radius: 25px;
+}*/
+.item-info p{
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(7, 141, 87);
+}
+.item-info ul li{
+    padding: 10px;
+}
+.item-info ul li:nth-child(odd) {
+    background-color: #d4d4d499;
+    }
+.item-info ul li span {
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+    }
+/* endshowitem page css */
+/*start our custom*/
+.custom-hr{
+    border-top: 2px solid #c9c9c9c7;
+}
+/*end our custom*/
+
+/*start add comment (item)*/
+.row.add-comments{
+    justify-content: center;
+}
+
+.add-comments .col-md-3 h4,.hr-comments{
+       margin: 0;
+       color:darkgray ;
+}
+.add-comment textarea{
+    height:120px;
+}
+.btn-add-comment{
+    padding: 5px 5px;
+    margin: 5px 0 0px 0;
+    width: 120px;
+}
+
+.alert.alert-danger.col-md-12{
+    text-align: center;
+}
+/*end add comment (item)*/
+
+/*start Item show Comments**/
+.show-comments{
+    margin: 10px;
+    display: block;
+    margin: auto;
+}
+.item-comments {
+    margin: 1px 0 0 0;
+    background: white;
+    border-radius: 4px;
+    padding: 5px;
+    min-height: 50px;
+}  
+.show-comments .date{
+    text-align: left;
+    font-size: 13px;
+    color: #AAA;
+    font-weight: bold;
+    padding: 0;
+    } 
+
+.no-session-user h5{
+    color: darkgray;
+}
+.no-session-user h5 a{
+    text-decoration: none;
+}
+
+
+.show-comments a{
+    width: auto;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.show-comments a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.show-comments span{
+    font-weight: bold;
+    width: auto;
+    padding: 0;
+}
+
+button.btn-buy{
+    float: right;
+    font-weight: bold;
+}
+
+button.btn-buy I{
+  font-size: 20px;
+  color:white;
+}
+/*end item show comments*/
